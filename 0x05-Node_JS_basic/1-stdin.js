@@ -12,7 +12,7 @@ function userGreet() {
     })
 
     process.stdin.on('end', () => {
-        process.stdout.write("This important software is closing\n")
+        process.stdout.write("This important software is now closing\n")
     })
 }
 
